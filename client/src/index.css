@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;500;600;700&family=Audiowide&display=swap");
+
+@tailwind base;
+@tailwind components;
+
+@layer base {
+  * {
+    @apply font-groove-light;
+  }
+
+  body {
+    @apply bg-primary text-gray-100;
+    background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 50%, #16213e 100%);
+    min-height: 100vh;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-secondary-200;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-neon rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-neon-50;
+  }
+}
+
+@layer components {
+  .neon-border {
+    @apply border border-neon shadow-[0_0_10px_rgba(0,255,136,0.3)];
+  }
+
+  .cosmic-border {
+    @apply border border-cosmic shadow-[0_0_10px_rgba(255,0,128,0.3)];
+  }
+
+  .vibrant-border {
+    @apply border border-vibrant shadow-[0_0_10px_rgba(255,107,53,0.3)];
+  }
+
+  .glass-effect {
+    @apply bg-white/10 backdrop-blur-md border border-white/20;
+  }
+
+  .neon-glow {
+    @apply shadow-[0_0_20px_rgba(0,255,136,0.5)];
+  }
+
+  .cosmic-glow {
+    @apply shadow-[0_0_20px_rgba(255,0,128,0.5)];
+  }
+
+  .vibrant-glow {
+    @apply shadow-[0_0_20px_rgba(255,107,53,0.5)];
+  }
+}
+
+@tailwind utilities;
