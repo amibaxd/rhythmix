@@ -1,6 +1,6 @@
 # RhythMix
 
-RhythMix is a full-stack MERN (MongoDB, Express.js, React, Node.js) music streaming application. This project aims to create an immersive music listening experience with features like song streaming, playlist creation, artiste exploration, and more. <a href="https://RhythMix.vercel.app" target="_blank">See it here</a>
+RhythMix is a full-stack MERN (MongoDB, Express.js, React, Node.js) music streaming application. This project aims to create an immersive music listening experience with features like song streaming, playlist creation, artiste exploration, and more. <a href="https://rythmix-frontend.vercel.app" target="_blank">See it here</a>
 
 ## Features
 
